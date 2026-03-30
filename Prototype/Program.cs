@@ -1,4 +1,4 @@
-﻿namespace CreationalPatterns;
+﻿namespace ProtoType;
 
 [Serializable]
 public abstract class IPrototype<T> where T : class

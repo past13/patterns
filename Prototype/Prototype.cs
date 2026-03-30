@@ -1,5 +1,4 @@
-
-namespace CreationalPatterns;
+namespace ProtoType;
 
 [Serializable]
 internal class DeeperData
