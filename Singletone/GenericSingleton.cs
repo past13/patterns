@@ -1,5 +1,4 @@
 namespace Singletone;
-
 // Generic Singleton Pattern — lazy, thread-safe instantiation via nested class
 
 public class GenericSingleton<T> where T : class, new()

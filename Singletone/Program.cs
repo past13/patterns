@@ -1,9 +1,5 @@
 ﻿namespace Singletone;
 
-
-
-
-
 class Program
 {
     static void Main()
