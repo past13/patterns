@@ -4,6 +4,8 @@ internal static class Program
 {
     private static void Main()
     {
+        Console.WriteLine("=== Strategy Pattern: Basic Counter Example ===");
+        
         var context = new Context();
         var random = new Random(37);
 
@@ -22,5 +24,9 @@ internal static class Program
         }
 
         Console.WriteLine();
+
+        // Demonstrate sorting strategies
+        SortDemo.DemoMergeSort();
+        SortDemo.DemoQuickSort();
     }
 }
