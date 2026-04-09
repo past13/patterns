@@ -1,4 +1,4 @@
-namespace ChainOfResponsibility;
+namespace ChainOfResponsibility.FirstExample;
 
 internal sealed class Handler(int id, Handler? next)
 {
