@@ -1,4 +1,4 @@
-namespace Mediator
+namespace Mediator.Email
 {
     public class Colleague
     {

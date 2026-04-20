@@ -1,10 +1,12 @@
-﻿namespace Mediator
+﻿using Mediator.Email;
+
+namespace Mediator
 {
     class Program
     {
         static void Main()
         {
-            Mediator m = new Mediator();
+            Email.Mediator m = new Email.Mediator();
             // Two from head office and one from a branch office
             Colleague head1 = new Colleague(m, "John");
             ColleagueB branch1 = new ColleagueB(m, "David");
