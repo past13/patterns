@@ -1,12 +1,10 @@
-﻿using Mediator.Email;
-
-namespace Mediator
+﻿namespace Mediator
 {
     class Program
     {
         static void Main()
         {
-            
+            Chat.Chat.Run();
             
             Email.Email.Run();
         }
