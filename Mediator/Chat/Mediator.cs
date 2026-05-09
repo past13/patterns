@@ -1,6 +1,3 @@
-using System;
-using System.Threading;
-
 namespace Mediator.Chat
 {
     public class Mediator

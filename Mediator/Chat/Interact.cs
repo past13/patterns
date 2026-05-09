@@ -1,5 +1,3 @@
-using System;
-
 namespace Mediator.Chat
 {
     public class Interact
