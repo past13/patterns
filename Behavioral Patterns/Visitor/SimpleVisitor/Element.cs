@@ -12,8 +12,15 @@ public class Element : IElement
         Next = next;
     }
 
-    public override void Accept(IVisitor visitor)
+    public virtual void Accept(IVisitor visitor)
     {
         visitor.Visit(this);
+        AcceptChildren(visitor);
+    }
+
+    protected void AcceptChildren(IVisitor visitor)
+    {
+        Link?.Accept(visitor);
+        Next?.Accept(visitor);
     }
 }

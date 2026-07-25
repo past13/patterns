@@ -11,5 +11,6 @@ public class ElementWithLink : Element
     public override void Accept(IVisitor visitor)
     {
         visitor.Visit(this);
+        AcceptChildren(visitor);
     }
 }

@@ -17,6 +17,6 @@ Console.WriteLine("Count the Elements");
 
 CountVisitor visitor = new CountVisitor();
 
-visitor.CountElements(objectStructure);
+objectStructure.Accept(visitor);
 
 Console.WriteLine("Number of Elements is: " + visitor.Count);

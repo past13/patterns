@@ -1,0 +1,110 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "AbstractFactory",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/AbstractFactory/AbstractFactory.csproj"
+    },
+    {
+      "name": "Builder",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Builder/Builder.csproj"
+    },
+    {
+      "name": "Factory",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Factory/Factory.csproj"
+    },
+    {
+      "name": "Prototype",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Prototype/Prototype.csproj"
+    },
+    {
+      "name": "Singletone",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Singletone/Singletone.csproj"
+    },
+    {
+      "name": "ChainOfResponsibility",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/ChainOfResponsibility/ChainOfResponsibility.csproj"
+    },
+    {
+      "name": "Command",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Command/Command.csproj"
+    },
+    {
+      "name": "DelegateExamples",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/DelegateExamples/DelegateExamples.csproj"
+    },
+    {
+      "name": "Facade",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Facade/Facade.csproj"
+    },
+    {
+      "name": "Iterator",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Iterator/Iterator.csproj"
+    },
+    {
+      "name": "Mediator",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Mediator/Mediator.csproj"
+    },
+    {
+      "name": "Observer",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Behavioral/Observer/Observer.csproj"
+    },
+    {
+      "name": "PluggableAdapter",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/PluggableAdapter/PluggableAdapter.csproj"
+    },
+    {
+      "name": "State",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/State/State.csproj"
+    },
+    {
+      "name": "Strategy",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Strategy/Strategy.csproj"
+    },
+    {
+      "name": "Template",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Template/Template.csproj"
+    },
+    {
+      "name": "Visitor",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Behavioral Patterns/Visitor/SimpleVisitor/Visitor.csproj"
+    }
+  ]
+}
