@@ -105,6 +105,12 @@
       "type": "dotnet",
       "request": "launch",
       "projectPath": "${workspaceFolder}/Behavioral Patterns/Visitor/SimpleVisitor/Visitor.csproj"
+    },
+    {
+      "name": "Visitor (Reflection)",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Behavioral Patterns/Visitor/Reflection/Reflection.csproj"
     }
   ]
 }
