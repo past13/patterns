@@ -111,6 +111,12 @@
       "type": "dotnet",
       "request": "launch",
       "projectPath": "${workspaceFolder}/Behavioral Patterns/Visitor/Reflection/Reflection.csproj"
+    },
+    {
+      "name": "Interpreter",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Behavioral Patterns/Interpreter/Interpreter.csproj"
     }
   ]
 }
